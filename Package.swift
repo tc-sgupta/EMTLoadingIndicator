@@ -5,7 +5,7 @@ import PackageDescription
 let package = Package(
     name: "EMTLoadingIndicator",
     platforms: [
-        .iOS(.v9)
+        .watchOS(.v3)
     ],
     products: [
         .library(
