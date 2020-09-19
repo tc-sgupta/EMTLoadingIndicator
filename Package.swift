@@ -18,7 +18,6 @@ let package = Package(
             name: "EMTLoadingIndicator",
             path: ".",
             sources: ["EMTLoadingIndicator/Classes"],
-            resources: [.process("EMTLoadingIndicator/Resources")])
-    ],
-    swiftLanguageVersions: [.v5]
+            resources: [.copy("EMTLoadingIndicator/Resources")])
+    ]
 )
