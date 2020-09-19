@@ -18,6 +18,6 @@ let package = Package(
             name: "EMTLoadingIndicator",
             path: ".",
             sources: ["EMTLoadingIndicator/Classes"],
-            resources: [.copy("EMTLoadingIndicator/Resources/waitIndicatorGraphic-0@2x.png")])
+            resources: [.copy("EMTLoadingIndicator/Resources/*")])
     ]
 )
