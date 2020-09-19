@@ -10,6 +10,7 @@ let package = Package(
     products: [
         .library(
             name: "EMTLoadingIndicator",
+            type: .dynamic,
             targets: ["EMTLoadingIndicator"])
     ],
     targets: [
