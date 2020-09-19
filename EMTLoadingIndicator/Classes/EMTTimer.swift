@@ -5,7 +5,6 @@
 //  Copyright (C) 2016 emotionale. All rights reserved.
 //
 
-import WatchKit
 #if !os(iOS)
 import WatchKit
 #endif
