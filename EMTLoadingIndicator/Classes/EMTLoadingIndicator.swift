@@ -6,7 +6,9 @@
 //
 
 import UIKit
+#if !os(iOS)
 import WatchKit
+#endif
 
 @objc
 final public class EMTLoadingIndicator: NSObject {

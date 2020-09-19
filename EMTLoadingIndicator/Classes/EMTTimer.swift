@@ -6,6 +6,9 @@
 //
 
 import WatchKit
+#if !os(iOS)
+import WatchKit
+#endif
 
 typealias EMTTimerCallback = (Timer) -> Void
 
