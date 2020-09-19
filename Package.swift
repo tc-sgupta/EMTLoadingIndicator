@@ -10,13 +10,13 @@ let package = Package(
     products: [
         .library(
             name: "EMTLoadingIndicator",
-            type: .dynamic,
             targets: ["EMTLoadingIndicator"])
     ],
     targets: [
         .target(
             name: "EMTLoadingIndicator",
             path: ".",
-            sources: ["EMTLoadingIndicator/Classes"])
+            sources: ["EMTLoadingIndicator/Classes"],
+            resources: [.copy("EMTLoadingIndicator/Resources")])
     ]
 )
