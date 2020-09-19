@@ -17,7 +17,6 @@ let package = Package(
         .target(
             name: "EMTLoadingIndicator",
             path: ".",
-            sources: ["EMTLoadingIndicator/Classes"],
-            resources: [.copy("EMTLoadingIndicator/Resources/*")])
+            sources: ["EMTLoadingIndicator/Classes"])
     ]
 )
